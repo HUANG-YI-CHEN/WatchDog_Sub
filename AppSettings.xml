@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Timer:單位秒-->
+<PS>
+  <MainProcess>
+    <ProcessItem>
+      <Name>WatchDog_Sub</Name>
+      <Path></Path>
+      <Timer>2</Timer>
+    </ProcessItem>
+    <ProcessItem>
+      <Name>AA</Name>
+      <Path></Path>
+      <Timer>5</Timer>
+    </ProcessItem>
+  </MainProcess>
+  <SubProcess>
+    <ProcessItem>
+      <Name>WatchDog_Main</Name>
+      <Path></Path>
+      <Timer>2</Timer>     
+    </ProcessItem>
+  </SubProcess>
+</PS>
+
